@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details - Rcord Store Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- ================================================================ -->
+  <!------ Google Fonts ------>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Karla:wght@200;300;400;500&family=Montserrat+Alternates:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@300;400;500&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+<!-- Bootstrap CSS-->	
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+<!--External JS-->
+<script src="script.js" async></script>
+
+</head>
+
+<!----External CSS----->
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<!-----FontAwsome------>
+<script src="https://kit.fontawesome.com/9d9796826b.js" crossorigin="anonymous"></script>
+
+
+
+
+
+  <!-- ================================================================ -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    *
+---------------------------------------------
+Explore
+---------------------------------------------
+*/
+
+#explore {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  border-bottom: 3px dotted #eee;
+}
+
+#explore .left-content {
+  margin-right: 30px;
+}
+
+#explore .left-content h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+#explore .left-content span {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#explore .left-content .quote {
+  margin-top: 25px;
+}
+
+#explore .left-content .quote i {
+  float: left;
+  font-size: 32px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+#explore .left-content .quote p {
+  font-style: italic;
+  color: #2a2a2a;
+  font-weight: 500;
+}
+
+#explore .left-content p {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#explore .left-content .main-border-button a {
+  color: #2a2a2a;
+  border-color: #2a2a2a;
+  margin-top: 35px;
+}
+
+#explore .left-content .main-border-button a:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+#explore img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#explore .leather {
+  margin-bottom: 30px;
+}
+
+#explore .first-image {
+  margin-bottom: 30px;
+}
+
+#explore .leather,
+#explore .types {
+  min-height: 255px;
+  background-color: #f8f8f8;
+  text-align: center;
+  width: 100%;
+}
+
+#explore .leather h4,
+#explore .types h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2a2a2a;
+  padding-top: 90px;
+  margin-bottom: 5px;
+}
+
+#explore .leather span,
+#explore .types span {
+  font-size: 14px;
+  font-style: italic;
+  color: #aaa;
+  font-weight: 500;
+}
+
+/* ============================= */
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;     
+}
+
+.navbar{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#category{
+  padding: 5% 6%;
+}
+#product-cards{
+  padding: 5% 10%;
+}
+
+#footer{
+ margin-bottom: 2%;
+ margin-top: 2%;
+  
+}
+.filter-btns{
+  text-align: center;
+}
+.filter-btn{
+  background: none;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 10px 30px;
+  font-size: 16px;
+  color: #d3d3d3;
+  font-weight: 600;
+  letter-spacing: 2px;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.filter-btn::after{
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 2px;
+  width: 0;
+  background-color: #555;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out
+}
+.filter-btn:hover{
+  color: #555;
+}
+.filter-btn:hover::after{
+  width: 100%;
+}
+/* active button */
+.active-btn{
+  color: #555;
+}
+.active-btn::after{
+  width: 100%;
+}
+
+.canvas-title{
+  text-align: center;
+}
+
+
+
+/*     Shopping Cart     */
+
+ .btn-purchase{
+   text-align: center;
+   margin: auto;
+   padding: 2%;
+   width: 50%;
+ }
+
+ #shopping-cart{
+   padding: 5% 5%;
+ }
+
+ .cart-total{
+   text-align: right;
+   font-size: 1.3rem;
+ }
+
+.up-icon{
+   color: black;
+   position: fixed;
+   float: right;
+   z-index: 1;
+   left: 95%;
+   top: 85%;
+   font-size: 2rem;
+ }
+/* ============================ */ .card { 
+width: 100%;
+height:100% ;
+} 
+#category img{
+  width: 100%;
+height:100% ;
+}
+.logo img{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+  </style>
+
+ 
+</head>
+  
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container">
+      <div class="header-container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <h1 class="text-light"><a href="index.html"><span><img src="/assets/img/logo 3.jpg" alt="">Record Store</span></a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+            <li><a class="nav-link scrollto" href="about.html">About</a></li>
+            <li><a class="nav-link scrollto" href="services.html">Services</a></li>
+            <li><a class="nav-link scrollto " href="portfolio-details.html">Portfolio</a></li>
+            <li><a class="nav-link scrollto" href="team.html">Team</a></li>
+            <li class="dropdown nav-link scrollto active"><a href="product.html"><span>Product </span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="man.html" >Male</a></li>
+                <li class="dropdown"><a href="#"><span>female</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="f clothes.html">Clothes</a></li>
+                    <li><a href="Burka.html">Burka</a></li>
+                    <li><a href="jewellery.html">Jewellery</a></li>
+                    <li><a href="makeup.html">Make up</a></li>
+                    <li><a href="shoes.html">shoes</a></li>
+                    
+                  </ul>
+                </li>
+                <li><a href="kids.html">Kid's</a></li>
+               
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+            <li><a class="getstarted scrollto" href="Testimonials.html">Get Started</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+      </div><!-- End Header Container -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Clothes </h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Team</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+   <!-- ***** Explore Area Starts ***** -->
+   
+
+
+  </main><!-- End #main -->
+  <!-- ======================================================== -->
+<!---- Bootstrap Script---->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+<!--Heading-->
+<div>
+<nav class="navbar fixed-top bg-light">
+    <div class="container-fluid">
+    
+
+      <a href="#shopping-cart" style="color: mediumblue;">  <i style="margin-right: 1%;" class="fa-solid fa-cart-shopping justify-content-end fa-xl" ></i></a>
+     
+    </div>
+  </nav>
+
+
+ 
+
+
+<!-- Item Categories-->
+<section id="category">
+  <div class="container-fluid">
+    <div class="row row-cols-2 row-cols-md-4 g-4">
+      <div class=" col">
+        <div class="card">
+          <img src="/assets/img/shoes/1.webp" class="card-img-top  " alt="...">
+        </div>
+      </div>
+
+      <div class=" col">
+        <div class="card">
+          <img src="/assets/img/shoes/2.webp" class="card-img-top" alt="...">
+        </div>
+      </div>
+
+      <div class=" col">
+        <div class="card">
+          <img src="/assets/img/shoes/3.webp" class="card-img-top" alt="...">
+        </div>
+      </div>
+
+      <div class=" col">
+        <div class="card">
+          <img src="/assets/img/shoes/4.jpg" class="card-img-top" alt="..." >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+
+<a href="#category" class="up-icon"><i class="fa-solid fa-circle-chevron-up"></i></a>
+ 
+
+<!----------------------------------------------------------------------------------->
+<img src="images/steps-line.png" style="width: 100%; height: 100%; overflow: hidden;">
+ 
+ 
+<!----------------------------------------------------------------------------------->
+<!--Filter Button-->
+<div class = "filter-btns">
+  <a href="index.html"><button type="button" class="filter-btn" id="refresh"><i class="fa-solid fa-rotate" ></i> Refresh</button></a>
+   
+  <button type = "button" class = "filter-btn" id = "all">all</button>
+  <button type = "button" class = "filter-btn" id = "new">new</button>
+  <button type = "button" class = "filter-btn" id = "office-wear">office wear</button>
+  <button type = "button" class = "filter-btn" id = "t-shirts">t-shirts</button>
+  <button type = "button" class = "filter-btn" id = "offers">offers</button>
+</div>
+
+
+<!--Product Cards-->
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="row row-cols-2 row-cols-md-4 g-4">
+      <div class=" col filter-item all new ">
+        <div class="card h-100">
+          <img src="/assets/img/shoes/6.webp" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Shoes play an essential role in our daily lives,</h5>
+            <p class="card-text shop-item-price"> Rs 1400.00</p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class=" col filter-item all new">
+        <div class="card h-100">
+          <img src="/assets/img/shoes/7.webp" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title shop-item-title">Shoes play an essential role in our daily lives,</h5>
+            <p class="card-text shop-item-price"> Rs 1200.00</p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class=" col filter-item all new">
+        <div class="card h-100">
+          <img src="/assets/img/shoes/8.jpg" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Shoes play an essential role in our daily lives, </h5>
+            <p class="card-text shop-item-price"> Rs 3500.00</p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class=" col filter-item all new">
+        <div class="card h-100">
+          <img src="/assets/img/shoes/5.jpg" class="card-img-top shop-item-image " alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Shoes play an essential role in our daily lives,
+              </h5>
+            <p class="card-text shop-item-price"> Rs 1500.00</p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+    
+</section>
+
+<!--Shopping Cart-->
+<section class="container content-section" id="shopping-cart">
+  
+  <h3 style="text-decoration: underline;text-align: center; margin-bottom: 7%;">Shopping Cart</h3>
+ 
+ <table class="table table-hover table-cart">
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Price</th>
+      <th>Quantity</th>
+    </tr>
+  </thead>
+  <tbody class="cart-items">
+    
+     
+  </tbody>
+</table>
+
+    <div class="cart-total"> 
+      <strong class="cart-total-title">Total</strong>
+      <span  class="cart-total-price" style="text-align: right;">$0</span>
+    </div>
+ 
+
+    <div class="btn-purchase" style="margin-top: 10%;">
+      <button type="button"  class="btn btn-danger btn-purchase "><i class="fa-solid fa-cart-shopping " style="margin-right: 6%;"></i>PURCHASE</button>
+    </div>
+
+</section>
+ <!-- Man Strart -->
+<!--Footer-->
+<section id="footer">
+  <div class="card text-center">
+   
+    <div class="card-body">
+      <h3 class="card-title"><i class="fa-solid fa-gift" style="margin-right: 1%;"></i>Record Store</h3>
+      <p>Thank You , Come Again !!!</p>
+    </div>
+    <div class="card-footer text-muted">
+       <p></p>
+       <p></p>
+    </div>
+  </div>
+</section>
+
+
+ 
+
+<!--External JS-->
+<script src="script.js"></script>
+
+
+
+ 
+  <!-- ======= Footer ======= --> 
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Record Store</h3>
+            <p>
+               Street,02 <br>
+              Manghopir, Pakhtoonabad<br>
+              Karachi States <br><br>
+              <strong>Phone:</strong> +92 3226040464<br>
+              <strong>Email:</strong> dawoodhassandawood9@gmial.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter For Record Store</h4>
+            <p>Creating a newsletter for a record store can be an excellent way to engage customers,
+               promote new releases, and share information about upcoming events</p>
+            <form action="" method="post">
+              <input type="email" class="border border-dark"  ><input type="button" class="btn btn-info out-line" value="Subscribe">
+ 
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Record Store</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
+          Designed by <a href="">BootstrapMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+<script>
+  /* Image Filter Section */
+
+const allFilterItems = document.querySelectorAll('.filter-item');
+const allFilterBtns = document.querySelectorAll('.filter-btn');
+
+window.addEventListener('DOMContentLoaded', () => {
+    allFilterBtns[1].classList.add('active-btn');
+});
+
+allFilterBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+        showFilteredContent(btn);
+    });
+});
+
+function showFilteredContent(btn){
+    allFilterItems.forEach((item) => {
+        if(item.classList.contains(btn.id)){
+            resetActiveBtn();
+            btn.classList.add('active-btn');
+            item.style.display = "block";
+        } else {
+            item.style.display = "none";
+        }
+    });
+}
+
+function resetActiveBtn(){
+    allFilterBtns.forEach((btn) => {
+        btn.classList.remove('active-btn');
+    });
+}
+
+
+/* Shopping Cart Section */
+if (document.readyState == 'loading'){
+    document.addEventListener('DOMContentLoaded' , ready);
+}
+
+else{
+    ready();
+}
+
+
+ function ready(){
+    var removeCartItemButton = document.getElementsByClassName('btn-danger');
+    for (var i = 0 ; i < removeCartItemButton.length; i++){
+        var button = removeCartItemButton[i];
+        button.addEventListener('click', removeCartItem)
+    }
+
+    var quantityInputs = document.getElementsByClassName('cart-quantity-input');
+    for(var i = 0 ;i < quantityInputs.length ; i++){
+        var input = quantityInputs[i];
+        input.addEventListener('change', quantityChanged);
+    }
+    
+    var addToCartButtons = document.getElementsByClassName('shop-item-button');
+    for(var i = 0; i< addToCartButtons.length; i++){
+        var button = addToCartButtons[i];
+        button.addEventListener('click',addToCartClicked)
+    }
+
+    document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
+ }
+
+
+ function purchaseClicked(){
+     alert('Thank you for your purchase!!!');
+     var cartItems = document.getElementsByClassName('cart-items')[0];
+     while(cartItems.hasChildNodes()){
+         cartItems.removeChild(cartItems.firstChild)
+     }
+     updateCartTotal();
+ }
+
+function removeCartItem(event){
+    var buttonClicked = event.target;
+    buttonClicked.parentElement.parentElement.remove();
+    updateCartTotal();
+    
+}
+
+function  quantityChanged(event){
+    var input = event.target;
+    if(isNaN(input.value) || input.value <= 0 ){
+        input.value = 1;
+    }
+    updateCartTotal();
+}
+
+
+function addToCartClicked(event){
+    var button = event.target;
+    var shopItem = button.parentElement.parentElement;
+    var title = shopItem.getElementsByClassName('shop-item-title')[0].innerText;
+    var price = shopItem.getElementsByClassName('shop-item-price')[0].innerText;
+    var imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src;
+    addItemToCart(title,price,imageSrc);
+    updateCartTotal();
+}
+
+function addItemToCart(title, price, imageSrc){
+    var cartRow = document.createElement('tr');
+    cartRow.classList.add('cart-row');
+    var cartItems = document.getElementsByClassName('cart-items')[0];
+    var cartItemNames = cartItems.getElementsByClassName('cart-item-title');
+
+    for (i = 0; i< cartItemNames.length ; i++){
+        if(cartItemNames[i].innerText == title){
+            alert('This item already has added to the cart!');
+            return
+        }
+    }
+    var cartRowContents = ` 
+
+        <td class="cart-item cart-column">
+            <img class="cart-item-image" src="${imageSrc}" width="50" height="50">
+            <span class="cart-item-title">${title}</span>                  
+        </td>
+        <td class="cart-item cart-column">
+            <span class="cart-price cart-column">${price}</span>
+        </td>
+        <td class="cart-item cart-column">
+            <input class="cart-quantity-input" type="number" value="1" style="width: 50px">
+            <button class="btn btn-danger" type="button">Remove</button>
+        </td>        
+    `;
+     
+            
+    cartRow.innerHTML = cartRowContents;
+    cartItems.append(cartRow);
+    cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem);
+    cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
+}
+
+
+function updateCartTotal(){
+    var cartItemContainer = document.getElementsByClassName('cart-items')[0];
+    var cartRows = cartItemContainer.getElementsByClassName('cart-row');
+    var total = 0;
+    for (var i = 0 ; i< cartRows.length ; i++){
+        var cartRow =cartRows[i];
+        var priceElement = cartRow.getElementsByClassName('cart-price')[0];
+        var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0];
+        var price = parseFloat(priceElement.innerText.replace('Rs ' , ''))
+        var quantity = quantityElement.value;
+        total = total + (price * quantity);
+         
+    }
+    total = Math.round(total * 100 )/100;
+    document.getElementsByClassName('cart-total-price')[0].innerText = 'Rs '+ total + '.00';
+ 
+}
+</script>
